@@ -1,0 +1,10 @@
+user = input("Please set up your username: ")
+passw = input("Please set up your password: ")
+while True:
+    luser = input("Please enter your username: ")
+    lpassw = input("Please enter your password: ")
+    if (luser == user and lpassw == passw):
+        print("Login successful")
+        break
+    else:
+        print("Login Failure")
